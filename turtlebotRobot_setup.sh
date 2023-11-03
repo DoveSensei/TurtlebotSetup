@@ -1,6 +1,8 @@
 #!/bin/bash
 
 if [ "$1" = "1" ]; then
+    echo "\033[33msudo apt-get install libudev-dev\033[0m"
+    sudo apt-get install -y libudev-dev
     echo "\033[33msudo apt-get install ros-noetic-rosserial-python\033[0m"
     sudo apt-get install -y ros-noetic-rosserial-python
 fi
