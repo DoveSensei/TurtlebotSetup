@@ -25,7 +25,11 @@ cat <<EOL > 50-cloud-init.yaml
 network:
     ethernets:
         eth0:
-            dhcp4: true
+            addresses: [192.168.10.10/24]
+            gateway4: 192.168.10.1
+#            nameservers:
+#                addresses: [8.8.8.8, 8.8.4.4]
+            dhcp4: no
             optional: true
     wifis:
         wlan0:
