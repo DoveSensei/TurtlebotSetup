@@ -63,3 +63,4 @@ else
     tar zcvf turtlebot.tar.gz turtlebot
 fi
 
+echo "\033[33mPlease run '\033[0m\033[31msource ~/.bashrc\033[0m\033[33m'\033[0m"

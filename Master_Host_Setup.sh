@@ -19,3 +19,5 @@ echo "export ROS_HOSTNAME=$HOST_IP" >> ~/.bashrc
 
 echo "\033[33mAdd export ROS_MASTER_URI=http://$MASTER_IP:11311\033[0m"
 echo "export ROS_MASTER_URI=http://$MASTER_IP:11311" >> ~/.bashrc
+
+echo "\033[33mPlease run '\033[0m\033[31msource ~/.bashrc\033[0m\033[33m'\033[0m"
